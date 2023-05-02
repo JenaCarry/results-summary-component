@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+    <title>Frontend Mentor | Results summary component</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body class="min-h-screen font-hanken-grotesk text-base flex justify-center sm:items-center">
+    <div class="w-screen max-w-lg shadow-xl rounded-b-xl sm:max-w-2xl sm:grid grid-cols-2 sm:rounded-3xl">
+        <section
+            class="bg-gradient-to-b from-grad-container-100 to-grad-container-200 rounded-b-3xl sm:rounded-3xl grid justify-items-center gap-3.5 px-7 py-6 sm:px-14">
+            <h2 class="font-bold text-white/80 sm:text-lg">Your Result</h2>
+            <div
+                class="bg-gradient-to-b from-grad-circle-100 to-grad-circle-200 rounded-full w-32 h-32 sm:w-40 sm:h-40 grid place-content-center justify-items-center">
+                <p class="text-white text-4xl font-extrabold sm:text-5xl">76</p>
+                <p class="text-white/60 text-sm font-medium">of 100</p>
+            </div>
+            <h3 class="text-white text-2xl sm:text-3xl font-medium">Great</h3>
+            <p class="text-white/80 text-center">
+                You scored higher than 65% of the people who have taken these tests.
+            </p>
+        </section>
+
+        <section class="grid gap-5 p-6 text-summary">
+            <h2 class="font-bold sm:text-lg">Summary</h2>
+            <div class="flex flex-col gap-4 font-bold">
+
+                <div class="box bg-red-box/10">
+                    <div class="icon-gap text-red-box">
+                        <img src="assets/images/icon-reaction.svg" alt="Reaction">
+                        <p>Reaction</p>
+                    </div>
+                    <div>
+                        <p>
+                            80
+                            <span class="text-zinc-400">/ 100</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box bg-orange-box/10">
+                    <div class="icon-gap text-orange-box">
+                        <img src="assets/images/icon-memory.svg" alt="Memory">
+                        <p>Memory</p>
+                    </div>
+                    <div>
+                        <p>
+                            92
+                            <span class="text-zinc-400">/ 100</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box bg-green-box/10">
+                    <div class="icon-gap text-green-box">
+                        <img src="assets/images/icon-verbal.svg" alt="Verbal">
+                        <p>Verbal</p>
+                    </div>
+                    <div>
+                        <p>
+                            61
+                            <span class="text-zinc-400">/ 100</span>
+                        </p>
+                    </div>
+                </div>
+
+                <div class="box bg-blue-box/10">
+                    <div class="icon-gap text-blue-box">
+                        <img src="assets/images/icon-visual.svg" alt="Visual">
+                        <p>Visual</p>
+                    </div>
+                    <div>
+                        <p>
+                            72
+                            <span class="text-zinc-400">/ 100</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <button
+                class="bg-summary text-white font-bold rounded-3xl p-3 hover:bg-gradient-to-b from-grad-btn-100 to-grad-btn-200">Continue</button>
+        </section>
+    </div>
+</body>
+
+</html>
