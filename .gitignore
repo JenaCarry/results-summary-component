@@ -1,14 +1,35 @@
-# Ignore os arquivos de sistema do Mac
-.DS_store
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
-# Ignore a pasta node_modules
-node_modules
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
 
-# Ignore todos os arquivos de texto
-*.txt
+# testing
+/coverage
 
-# Ignore arquivos relacionados às chaves de API
-.env
+# next.js
+/.next/
+/out/
 
-# Ignore arquivos de configuração de SASS
-.sass-cache
+# production
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# local env files
+.env*.local
+
+# vercel
+.vercel
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts
