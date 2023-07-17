@@ -67,10 +67,10 @@ Users should be able to:
 ### Built with
 
 - Semantic HTML5 markup
-- Tailwind CSS
 - Mobile-first workflow
-- React
-- Net.js
+- [React](https://reactjs.org/) - JS library
+- [Next.js](https://nextjs.org/) - React framework
+- [Tailwind CSS](https://tailwindcss.com/) - For styles
 
 ## Useful resources
 
